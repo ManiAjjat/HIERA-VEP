@@ -1,0 +1,14 @@
+name: Bug report
+description: Report a reproducible software problem
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Problem and expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal reproduction and dependency versions
+      description: Use synthetic examples. Do not include private data or secrets.

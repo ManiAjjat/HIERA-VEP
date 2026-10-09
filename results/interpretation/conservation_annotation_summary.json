@@ -1,0 +1,29 @@
+{
+  "annotated_variants": 29444,
+  "elements": 21,
+  "assembly": "hg38",
+  "ucsc_tracks": {
+    "phyloP100way": "phyloP100way",
+    "phastCons100way": "phastCons100way"
+  },
+  "phyloP100way": {
+    "nonmissing": 29444,
+    "available_fraction": 1.0,
+    "mean": 0.7449604872965628,
+    "median": 0.279402,
+    "sd": 1.9825267413802343,
+    "minimum": -8.542,
+    "maximum": 9.323
+  },
+  "phastCons100way": {
+    "nonmissing": 29444,
+    "available_fraction": 1.0,
+    "mean": 0.32744049439512296,
+    "median": 0.0,
+    "sd": 0.44529253499334676,
+    "minimum": 0.0,
+    "maximum": 1.0
+  },
+  "coordinate_conversion": "1-based SNV position queried at GRCh38 0-based base [position-1, position).",
+  "interpretation": "Conservation is an external genomic annotation, not experimental validation of variant effect."
+}

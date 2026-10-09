@@ -1,0 +1,27 @@
+{
+  "analysis": "locked frozen Nucleotide Transformer external validation",
+  "pretrained_model": "InstaDeepAI/nucleotide-transformer-v2-50m-multi-species",
+  "locked_ridge_model": "PROJECT_ROOT\\results\\nucleotide_transformer\\local_mutation_ridge_baseline\\local_nt_ridge_model.joblib",
+  "locked_representation": "delta",
+  "locked_alpha": 100000.0,
+  "embedding_dimension": 512,
+  "external_variants": 6744,
+  "batch_size": 64,
+  "max_token_length": 128,
+  "changed_token_distribution": {
+    "1": 6744
+  },
+  "ambiguous_padding_policy": "Non-ACGT padding replaced identically with A in reference and alternative model inputs to prevent unknown-token collapse; original sequences retained.",
+  "ambiguous_reference_bases_replaced": 1062491,
+  "bootstrap_iterations": 2000,
+  "bootstrap_seed": 20261006,
+  "position_clusters": {
+    "primary_human_external": 879,
+    "cross_species_transfer": 1288,
+    "secondary_splicing_transfer": 94
+  },
+  "external_labels_used_for_model_selection_or_training": false,
+  "embedding_extraction_minutes": 0.278,
+  "device": "cuda",
+  "warning": "External performance is reported without post-hoc score flipping or external tuning."
+}

@@ -1,0 +1,21 @@
+{
+  "analysis": "nested position-grouped assay-adaptive sequence modeling",
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "alphas": [
+    1.0,
+    10.0,
+    100.0,
+    1000.0,
+    10000.0,
+    100000.0
+  ],
+  "bootstrap_iterations": 2000,
+  "seed": 20261006,
+  "variants": 6744,
+  "elements": 7,
+  "nt_features": 512,
+  "kmer_features": 5440,
+  "position_leakage": false,
+  "claim_boundary": "These are within-assay adaptation results from nested grouped cross-validation. They are not independent zero-shot external validation and must be reported separately from Steps 35-36."
+}

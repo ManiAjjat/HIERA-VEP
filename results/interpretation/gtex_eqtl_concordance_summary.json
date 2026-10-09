@@ -1,0 +1,26 @@
+{
+  "gtex_dataset": "gtex_v8",
+  "locked_variants": 4408,
+  "independent_positions": 1474,
+  "exact_variants_with_significant_gtex_eqtl": 1,
+  "positions_with_significant_gtex_eqtl": 1,
+  "top_fraction": 0.1,
+  "top_effect_cutoff": 2.13537390556863,
+  "top_effect_positions": 150,
+  "top_effect_eqtl_fraction": 0.0,
+  "other_eqtl_fraction": 0.0007552870090634441,
+  "risk_difference": -0.0007552870090634441,
+  "risk_difference_ci_95": [
+    -0.002297090352220521,
+    0.0
+  ],
+  "fisher_odds_ratio": 0.0,
+  "fisher_p_one_sided": 1.0,
+  "interpretation_limits": [
+    "GTEx records are observational associations, not causal validation.",
+    "Only exact GRCh38 chromosome-position-reference-alternative matches are counted.",
+    "No tissue was selected after inspecting results; the annotation is pan-tissue.",
+    "Absence of a significant GTEx record is not evidence that a variant lacks regulatory function.",
+    "Reporter-assay context can differ substantially from adult bulk GTEx tissue context."
+  ]
+}

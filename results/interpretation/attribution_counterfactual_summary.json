@@ -1,0 +1,21 @@
+{
+  "variants": 4408,
+  "selected_model": "context_gated_sequence",
+  "exact_additivity_max_absolute_error": 5.103647708892822e-07,
+  "permutations": 1000,
+  "observed_metrics": {
+    "mae": 0.6067291739686421,
+    "rmse": 0.9384288039761306,
+    "r2": 0.11620207640938929,
+    "pearson_r": 0.3515302361351456,
+    "spearman_rho": 0.2917834975018442,
+    "direction_accuracy": 0.602994555353902
+  },
+  "shuffle_rmse_increase_mean": 0.04430590967323695,
+  "shuffle_rmse_increase_95_interval": [
+    0.036178884852128515,
+    0.052112785956737295
+  ],
+  "shuffle_pearson_decrease_mean": 0.1592950304479929,
+  "warning": "Block removal and context shuffling quantify model reliance; they are not biological causal effects."
+}

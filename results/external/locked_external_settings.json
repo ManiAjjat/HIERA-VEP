@@ -1,0 +1,21 @@
+{
+  "development_training_rows": 25036,
+  "external_rows": 6744,
+  "external_studies": 7,
+  "configuration": {
+    "name": "ridge_strong_context",
+    "ridge_alpha": 1000.0,
+    "scope": "context",
+    "rank": 2,
+    "lr": 0.003,
+    "l_seq": 0.01,
+    "l_int": 0.01,
+    "l_group": 0.05
+  },
+  "fixed_epochs": 99,
+  "external_outcomes_used_for_training_or_selection": false,
+  "unseen_assay_codes": 6744,
+  "unseen_element_codes": 6744,
+  "unseen_interaction_codes": 6744,
+  "bootstrap_iterations": 2000
+}

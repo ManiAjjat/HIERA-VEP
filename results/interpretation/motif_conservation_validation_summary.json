@@ -1,0 +1,23 @@
+{
+  "variants": 4408,
+  "independent_positions": 1476,
+  "elements": 21,
+  "bootstrap_iterations": 5000,
+  "top_fraction": 0.1,
+  "top_effect_position_cutoff": 2.13537390556863,
+  "top_effect_positions": 150,
+  "other_positions": 1326,
+  "top_median_motif_disruption": 0.31608905643100094,
+  "other_median_motif_disruption": 0.3160890564310008,
+  "top_median_phyloP": 0.446661,
+  "other_median_phyloP": 0.2444845,
+  "top_median_phastCons": 0.30315000000000003,
+  "other_median_phastCons": 0.0,
+  "fdr_significant_position_level_motifs": 0,
+  "interpretation_limits": [
+    "JASPAR PWM disruption is computational annotation, not direct TF-binding evidence.",
+    "Observed-effect versus motif/conservation tests are annotation concordance, not causal validation.",
+    "Attribution versus conservation is not independent because conservation was a model input.",
+    "eQTL validation is deferred until tissue and gene mappings are prespecified; it is not inferred from proximity."
+  ]
+}

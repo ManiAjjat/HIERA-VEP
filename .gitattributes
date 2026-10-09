@@ -1,0 +1,9 @@
+* text=auto eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.tsv text eol=lf
+*.json text eol=lf
+*.joblib binary
+*.png binary
+models/preprocessing_spec.json -text
+models/locked_inference_smoke_test.json -text

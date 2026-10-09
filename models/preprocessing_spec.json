@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "sequence_operation": "CountVectorizer alternative minus reference",
+  "vectorizer": {
+    "analyzer": "char",
+    "ngram_range": [
+      3,
+      6
+    ],
+    "lowercase": false,
+    "dtype": "float32",
+    "vocabulary_size": 5440
+  },
+  "context_columns": [
+    "ccre_overlap",
+    "promoter_overlap",
+    "log1p_abs_tss_distance",
+    "phyloP100way",
+    "phastCons100way",
+    "phyloP_conserved",
+    "phyloP_accelerated",
+    "phastCons_high",
+    "ccre_class_PLS",
+    "ccre_class_pELS",
+    "ccre_class_dELS",
+    "ccre_class_CA-H3K4me3"
+  ],
+  "continuous_context_columns": [
+    "log1p_abs_tss_distance",
+    "phyloP100way",
+    "phastCons100way"
+  ],
+  "continuous_mean": [
+    7.413460731506348,
+    0.739835262298584,
+    0.32564103603363037
+  ],
+  "continuous_sd": [
+    2.3444337844848633,
+    1.973281741142273,
+    0.44462263584136963
+  ],
+  "gating_columns": [
+    "ccre_overlap",
+    "promoter_overlap",
+    "phyloP100way",
+    "phastCons100way"
+  ],
+  "feature_order": [
+    "delta_kmer_5440",
+    "context_12",
+    "delta_kmer_5440_x_ccre_overlap",
+    "delta_kmer_5440_x_promoter_overlap",
+    "delta_kmer_5440_x_phyloP100way",
+    "delta_kmer_5440_x_phastCons100way"
+  ],
+  "total_features": 27212,
+  "scaling_fit_partition": "development train+validation pool only",
+  "locked_test_used_for_scaling": false
+}

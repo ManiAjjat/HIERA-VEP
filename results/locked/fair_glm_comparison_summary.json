@@ -1,0 +1,18 @@
+{
+  "model_name": "InstaDeepAI/nucleotide-transformer-v2-50m-multi-species",
+  "representation": "mutation_token_delta",
+  "selected_alpha": 10000.0,
+  "selection_frequency": {
+    "10000.0": 3
+  },
+  "embedding_shape": [
+    29444,
+    512
+  ],
+  "changed_token_distribution": {
+    "1": 29444
+  },
+  "locked_test_used_for_selection": false,
+  "bootstrap_position_clusters": 2000,
+  "interpretation": "Frozen local-token NT is a pretrained-language-model baseline, not a fine-tuned foundation model."
+}

@@ -1,0 +1,18 @@
+{
+  "rows": 36188,
+  "development_rows": 29444,
+  "external_rows": 6744,
+  "assay_groups": 31,
+  "elements": 28,
+  "position_groups": 12119,
+  "context_groups": 15,
+  "primary_human_regulatory_rows": 32081,
+  "secondary_transfer_rows": 4107,
+  "exact_sequence_pairs": 34730,
+  "duplicate_sequence_pair_rows": 2916,
+  "alignment_failures": 0,
+  "missing_targets": 0,
+  "target_policy": "Use assay-provided standardized target; learn calibration within training folds only.",
+  "split_policy": "Group by position and exact sequence pair; hold out entire assays/elements/contexts when specified.",
+  "metadata_policy": "Unknown cell contexts remain explicit unknowns; no biological metadata is inferred without evidence."
+}

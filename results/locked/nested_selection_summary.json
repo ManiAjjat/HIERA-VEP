@@ -1,0 +1,121 @@
+{
+  "selected_config": "ridge_strong_context",
+  "selected_epochs": 99,
+  "selection_frequency": {
+    "ridge_strong_context": 3
+  },
+  "outer_folds": 3,
+  "inner_folds": 2,
+  "connected_groups": 9858,
+  "locked_test_used_for_selection": false,
+  "candidate_configs": [
+    {
+      "name": "ridge_anchor",
+      "ridge_alpha": 100.0,
+      "scope": "none",
+      "rank": 0,
+      "lr": 0.003,
+      "l_seq": 0.01,
+      "l_int": 0.0,
+      "l_group": 0.0
+    },
+    {
+      "name": "group_residual",
+      "ridge_alpha": 100.0,
+      "scope": "none",
+      "rank": 0,
+      "lr": 0.003,
+      "l_seq": 0.02,
+      "l_int": 0.0,
+      "l_group": 0.05
+    },
+    {
+      "name": "context_rank2",
+      "ridge_alpha": 100.0,
+      "scope": "context",
+      "rank": 2,
+      "lr": 0.003,
+      "l_seq": 0.02,
+      "l_int": 0.01,
+      "l_group": 0.05
+    },
+    {
+      "name": "context_rank4",
+      "ridge_alpha": 100.0,
+      "scope": "context",
+      "rank": 4,
+      "lr": 0.001,
+      "l_seq": 0.02,
+      "l_int": 0.02,
+      "l_group": 0.1
+    },
+    {
+      "name": "element_rank2",
+      "ridge_alpha": 100.0,
+      "scope": "element",
+      "rank": 2,
+      "lr": 0.003,
+      "l_seq": 0.02,
+      "l_int": 0.01,
+      "l_group": 0.05
+    },
+    {
+      "name": "element_rank4",
+      "ridge_alpha": 100.0,
+      "scope": "element",
+      "rank": 4,
+      "lr": 0.001,
+      "l_seq": 0.02,
+      "l_int": 0.02,
+      "l_group": 0.1
+    },
+    {
+      "name": "ridge_strong_context",
+      "ridge_alpha": 1000.0,
+      "scope": "context",
+      "rank": 2,
+      "lr": 0.003,
+      "l_seq": 0.01,
+      "l_int": 0.01,
+      "l_group": 0.05
+    }
+  ],
+  "locked_test_metrics": [
+    {
+      "model": "hiera_nested_selected",
+      "n": 4408,
+      "mae": 0.6160763502120972,
+      "rmse": 0.9468084431538112,
+      "r2": 0.10034805536270142,
+      "pearson_r": 0.31864213943481445,
+      "spearman_rho": 0.29449609266522114,
+      "direction_accuracy": 0.5998185117967332,
+      "observed_sd": 0.9983299970626831,
+      "predicted_sd": 0.3205537497997284
+    },
+    {
+      "model": "ridge_anchor",
+      "n": 4408,
+      "mae": 0.6191741228103638,
+      "rmse": 0.9708229159886366,
+      "r2": 0.05413246154785156,
+      "pearson_r": 0.25174814462661743,
+      "spearman_rho": 0.2464896448792585,
+      "direction_accuracy": 0.588929219600726,
+      "observed_sd": 0.9983299970626831,
+      "predicted_sd": 0.16673405468463898
+    },
+    {
+      "model": "zero_baseline",
+      "n": 4408,
+      "mae": 0.6378845742427689,
+      "rmse": 0.9991780637448504,
+      "r2": -0.0019270431783882103,
+      "pearson_r": null,
+      "spearman_rho": null,
+      "direction_accuracy": 0.0,
+      "observed_sd": 0.9983299970626831,
+      "predicted_sd": 0.0
+    }
+  ]
+}

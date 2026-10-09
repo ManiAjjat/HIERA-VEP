@@ -1,0 +1,32 @@
+{
+  "source_project_relative_path": "release/HIERA-VEP_reproducibility_release_v1/example_predictions.tsv",
+  "original_source_sha256": "543997683a6776e5cf9430fe3dff9ceb040ca0265168d47846009ea3ba6339a7",
+  "row_ids": [
+    "HIERA_00000000",
+    "HIERA_00000001",
+    "HIERA_00000002",
+    "HIERA_00000054",
+    "HIERA_00000055",
+    "HIERA_00000056",
+    "HIERA_00000150",
+    "HIERA_00000151",
+    "HIERA_00000152",
+    "HIERA_00000171",
+    "HIERA_00000172",
+    "HIERA_00000173"
+  ],
+  "predictions": [
+    0.017493691,
+    -0.3089365,
+    -0.018273976,
+    0.17343049,
+    0.31186706,
+    0.6431957,
+    -0.40472525,
+    -0.3243287,
+    -0.29371583,
+    -0.039152954,
+    0.1343814,
+    -0.02475797
+  ]
+}

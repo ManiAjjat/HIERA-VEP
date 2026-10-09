@@ -1,0 +1,28 @@
+{
+  "variants": 4408,
+  "elements": 21,
+  "position_clusters": 1476,
+  "locked_metrics": {
+    "n": 4408,
+    "mae": 0.606729174034268,
+    "rmse": 0.9384288040195805,
+    "r2": 0.11620207632754831,
+    "pearson_r": 0.35153023605197475,
+    "spearman_rho": 0.2917834975018442,
+    "direction_accuracy": 0.602994555353902,
+    "observed_sd": 0.9983299695606112,
+    "predicted_sd": 0.2743418089675078
+  },
+  "calibration_intercept": -0.03695602826527761,
+  "calibration_slope": 1.2792186913769568,
+  "mean_residual": -0.03845420696015834,
+  "median_residual": 0.019247456177511932,
+  "high_error_cutoff_absolute_error": 1.3359204290816025,
+  "disagreement_vs_absolute_error_spearman": 0.12024969173536465,
+  "disagreement_high_error_auc": 0.594723932762753,
+  "limitations": [
+    "Calibration estimates are locked-test diagnostics and are not used to recalibrate predictions.",
+    "Model disagreement is an uncertainty proxy, not a calibrated predictive interval.",
+    "Failure-stratum results are descriptive and should not be treated as independent confirmatory tests."
+  ]
+}

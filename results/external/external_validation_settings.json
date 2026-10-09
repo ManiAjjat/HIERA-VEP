@@ -1,0 +1,37 @@
+{
+  "analysis": "locked shared-model external regulatory variant validation",
+  "development_file": "PROJECT_ROOT\\data\\processed\\mavedb\\regulatory_panel\\mavedb_regulatory_within_element_splits.tsv",
+  "external_file": "PROJECT_ROOT\\results\\external_validation_harmonized\\external_model_ready_501bp.tsv",
+  "development_variants": 29444,
+  "development_elements": 21,
+  "training_variants": 20621,
+  "validation_variants": 4415,
+  "internal_test_variants": 4408,
+  "external_variants": 6744,
+  "external_elements": 7,
+  "selected_alpha": 100.0,
+  "alphas_tested": [
+    0.1,
+    1.0,
+    10.0,
+    100.0,
+    1000.0,
+    10000.0
+  ],
+  "kmer_range": [
+    3,
+    6
+  ],
+  "kmer_features": 5440,
+  "bootstrap_iterations": 2000,
+  "bootstrap_seed": 20261006,
+  "external_position_clusters": {
+    "primary_human_external": 879,
+    "cross_species_transfer": 1288,
+    "secondary_splicing_transfer": 94
+  },
+  "external_labels_used_for_training_or_tuning": false,
+  "external_vocabulary_leakage": false,
+  "primary_claim_tier": "primary_human_external",
+  "interpretation_warning": "Cross-species and splicing tiers are transfer stress tests, not equivalent to independent human transcriptional validation. Association is predictive, not causal."
+}

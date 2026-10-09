@@ -1,0 +1,22 @@
+{
+  "paired_variants": 1458,
+  "paired_positions": 493,
+  "pearson_sulfate_vs_glucose": -0.038486917464254373,
+  "spearman_sulfate_vs_glucose": -0.06091675963442364,
+  "sign_concordance": 0.4780521262002744,
+  "sign_switch_fraction": 0.5219478737997256,
+  "condition_difference_sd": 2.986855404097897,
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "alphas": [
+    1.0,
+    10.0,
+    100.0,
+    1000.0,
+    10000.0
+  ],
+  "bootstrap_iterations": 2000,
+  "seed": 20261007,
+  "position_leakage": false,
+  "interpretation": "Predicts context-dependent score difference, not causal response."
+}

@@ -1,0 +1,4 @@
+outer_fold	selected_config	fixed_epochs	macro_element_rmse	rmse	pearson_r	best_epoch
+1	ridge_strong_context	99	0.9183791448668339	0.946880238584625	0.3192397	99
+2	ridge_strong_context	95	0.9156975667199209	0.9256639044066459	0.32399422	95
+3	ridge_strong_context	105	0.9243243830565875	0.9458303373068078	0.30799183	105

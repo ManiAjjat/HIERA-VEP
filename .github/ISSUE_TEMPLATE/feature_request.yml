@@ -1,0 +1,9 @@
+name: Feature request
+description: Suggest a research software improvement
+body:
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change and research use case
+    validations:
+      required: true

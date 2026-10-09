@@ -1,0 +1,6 @@
+association	x	y	point_spearman	ci_lower_95	ci_upper_95	bootstrap_sign_p_two_sided
+abs_observed_vs_motif	max_abs_observed	max_abs_motif_disruption	0.0032610773532018153	-0.0452923657042513	0.05377720284439311	0.9192
+abs_prediction_vs_motif	max_abs_prediction	max_abs_motif_disruption	2.58592543519219e-05	-0.050194534460485316	0.05040955831964956	0.9976
+abs_context_attribution_vs_motif	max_abs_context_attribution	max_abs_motif_disruption	-0.02328780852956106	-0.07313763082136844	0.026619935302360283	0.3676
+abs_observed_vs_phyloP	max_abs_observed	phyloP100way	0.0538543259505617	0.0043363790472633525	0.1049027284168523	0.03
+abs_observed_vs_phastCons	max_abs_observed	phastCons100way	0.0844652201415695	0.036374754040138825	0.133121155657422	0.0008

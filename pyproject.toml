@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hiera-vep"
+version = "1.0.0"
+description = "Interpretable context-gated regulatory variant-effect prediction"
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+license = {text = "MIT"}
+dependencies = ["numpy==2.4.6", "pandas==2.3.3", "scikit-learn==1.9.1", "scipy==1.16.2", "joblib==1.5.2"]
+
+[project.scripts]
+hiera-vep-score = "src.hiera_vep_score:main"
+
+[tool.setuptools.packages.find]
+include = ["src*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+filterwarnings = ["error::sklearn.exceptions.InconsistentVersionWarning"]

@@ -1,0 +1,16 @@
+{
+  "variants": 4408,
+  "elements": 21,
+  "position_clusters": 1476,
+  "bootstrap_iterations": 5000,
+  "exact_additivity_max_absolute_error": 4.832959880074483e-07,
+  "prespecified_primary_ablation": "without_all_context",
+  "without_all_context_rmse_loss": 0.04496089661917273,
+  "without_all_context_ci_95": [
+    0.032595979966331234,
+    0.05772647849389174
+  ],
+  "without_all_context_holm_p": 0.004799040191961607,
+  "interpretation": "Positive RMSE loss means the locked full model performs better than the ablated prediction.",
+  "warning": "These are locked-model functional ablations, not refitted-model comparisons and not causal biological effects."
+}

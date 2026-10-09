@@ -1,0 +1,17 @@
+{
+  "analysis": "repeated position-held-out few-shot assay adaptation",
+  "support_fractions_of_non_test_pool": [
+    0.05,
+    0.1,
+    0.2,
+    0.4,
+    0.8
+  ],
+  "test_position_fraction": 0.2,
+  "repeats": 25,
+  "fixed_ridge_alpha": 100.0,
+  "seed": 20261007,
+  "support_sets_nested_within_each_repeat": true,
+  "position_leakage": false,
+  "claim_boundary": "Within-assay label-efficiency analysis, not independent external validation."
+}

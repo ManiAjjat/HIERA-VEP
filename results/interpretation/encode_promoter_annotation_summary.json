@@ -1,0 +1,18 @@
+{
+  "annotated_variants": 29444,
+  "elements": 21,
+  "variants_overlapping_ccre": 19941,
+  "ccre_overlap_fraction": 0.6772517321016166,
+  "variants_overlapping_promoter": 11249,
+  "promoter_overlap_fraction": 0.38204727618530093,
+  "ccre_class_counts": {
+    "none": 9503,
+    "dELS": 9487,
+    "PLS": 6780,
+    "pELS": 3569,
+    "CA-H3K4me3": 105
+  },
+  "ccre_file": "PROJECT_ROOT\\data\\raw\\encode\\GRCh38-cCREs-v4.bed",
+  "promoter_file": "PROJECT_ROOT\\data\\processed\\gencode\\gencode_v50_promoters.tsv",
+  "coordinate_conversion": "MaveDB 1-based SNV start converted to 0-based half-open BED [start-1,start)."
+}

@@ -1,0 +1,37 @@
+evaluation_group	model	baseline	measure	mean_difference	ci_lower_95	ci_upper_95	bootstrap_p_two_sided
+cross_species_transfer	frozen_nt_ridge	shared_kmer_ridge	rmse_reduction	-0.008034763981347856	-0.01986139386587567	0.003303589833632216	0.195
+cross_species_transfer	frozen_nt_ridge	shared_kmer_ridge	mae_reduction	0.007156609392192229	-0.003804980396077251	0.018024040380781703	0.204
+cross_species_transfer	frozen_nt_ridge	shared_kmer_ridge	pearson_gain	-0.09654646326751112	-0.14384027338532912	-0.05131037968947042	0.0
+cross_species_transfer	frozen_nt_ridge	shared_kmer_ridge	spearman_gain	-0.11305602837975112	-0.1600333998208897	-0.06459775530584017	0.0
+cross_species_transfer	frozen_nt_ridge	mutation_class_baseline	rmse_reduction	0.0006570670742249094	-0.0010886578448080276	0.0024369707589627916	0.47
+cross_species_transfer	frozen_nt_ridge	mutation_class_baseline	mae_reduction	0.00042527205392076697	-0.001319445100667116	0.0021952112487273515	0.657
+cross_species_transfer	frozen_nt_ridge	mutation_class_baseline	pearson_gain	0.006953674967829428	-0.032371590008879424	0.04925487870532798	0.757
+cross_species_transfer	frozen_nt_ridge	mutation_class_baseline	spearman_gain	0.02600201591489794	-0.013877919772421105	0.06494970482348718	0.199
+cross_species_transfer	frozen_nt_ridge	zero_baseline	rmse_reduction	-0.0008980414680787163	-0.0026385064027987294	0.0009158609878475104	0.334
+cross_species_transfer	frozen_nt_ridge	zero_baseline	mae_reduction	-0.0007481917968206863	-0.002469545288777869	0.0009998007397124247	0.389
+cross_species_transfer	frozen_nt_ridge	zero_baseline	pearson_gain				
+cross_species_transfer	frozen_nt_ridge	zero_baseline	spearman_gain				
+primary_human_external	frozen_nt_ridge	shared_kmer_ridge	rmse_reduction	-0.003909122243499063	-0.01947564038279991	0.011310746195583955	0.617
+primary_human_external	frozen_nt_ridge	shared_kmer_ridge	mae_reduction	0.009498787567692159	-0.0027880240046187833	0.021455324103122283	0.12
+primary_human_external	frozen_nt_ridge	shared_kmer_ridge	pearson_gain	-0.02614696742063024	-0.08803433834869527	0.033364551014337655	0.395
+primary_human_external	frozen_nt_ridge	shared_kmer_ridge	spearman_gain	-0.02997893324334246	-0.08395424248235156	0.024587737778501362	0.268
+primary_human_external	frozen_nt_ridge	mutation_class_baseline	rmse_reduction	0.0029274600960552863	0.0005655548260857735	0.005300565843066112	0.019
+primary_human_external	frozen_nt_ridge	mutation_class_baseline	mae_reduction	0.002877448225040182	0.0007973661380666242	0.004966613402558244	0.007
+primary_human_external	frozen_nt_ridge	mutation_class_baseline	pearson_gain	0.046479944877861286	-0.010236760700093123	0.1046869621993086	0.104
+primary_human_external	frozen_nt_ridge	mutation_class_baseline	spearman_gain	0.04848583902705971	-9.843337945398231e-05	0.09650492014990973	0.051
+primary_human_external	frozen_nt_ridge	zero_baseline	rmse_reduction	0.0026253753491645103	0.0006518559855602569	0.004622961766071726	0.013
+primary_human_external	frozen_nt_ridge	zero_baseline	mae_reduction	0.0031721822331899556	0.0012468720002002053	0.005179220769148439	0.0
+primary_human_external	frozen_nt_ridge	zero_baseline	pearson_gain				
+primary_human_external	frozen_nt_ridge	zero_baseline	spearman_gain				
+secondary_splicing_transfer	frozen_nt_ridge	shared_kmer_ridge	rmse_reduction	0.00888030601841761	-0.02282796011390555	0.040056254462678444	0.583
+secondary_splicing_transfer	frozen_nt_ridge	shared_kmer_ridge	mae_reduction	0.04452136143031087	0.016173132435316945	0.07489278981493992	0.001
+secondary_splicing_transfer	frozen_nt_ridge	shared_kmer_ridge	pearson_gain	0.027989833238567123	-0.14411753559661514	0.19045584479937888	0.73
+secondary_splicing_transfer	frozen_nt_ridge	shared_kmer_ridge	spearman_gain	0.0978078761501432	-0.07566848573491008	0.27539042337081177	0.294
+secondary_splicing_transfer	frozen_nt_ridge	mutation_class_baseline	rmse_reduction	-0.0025889391761252612	-0.006764768399109733	0.0016772806316186495	0.238
+secondary_splicing_transfer	frozen_nt_ridge	mutation_class_baseline	mae_reduction	-0.001296420529587413	-0.0053923672983041794	0.00286348032992772	0.533
+secondary_splicing_transfer	frozen_nt_ridge	mutation_class_baseline	pearson_gain	-0.10936064078683574	-0.26720878433677414	0.05462440823319895	0.203
+secondary_splicing_transfer	frozen_nt_ridge	mutation_class_baseline	spearman_gain	-0.011063724428271346	-0.17445366817116875	0.15723802410386223	0.89
+secondary_splicing_transfer	frozen_nt_ridge	zero_baseline	rmse_reduction	0.0012736386214640433	-0.002257943988542499	0.004741060277412466	0.476
+secondary_splicing_transfer	frozen_nt_ridge	zero_baseline	mae_reduction	-0.0004122149732391598	-0.0040275917739625465	0.0031283104358244386	0.837
+secondary_splicing_transfer	frozen_nt_ridge	zero_baseline	pearson_gain				
+secondary_splicing_transfer	frozen_nt_ridge	zero_baseline	spearman_gain				

@@ -1,0 +1,3 @@
+analysis	odds_ratio	p_value	fdr_bh
+top_effect_eqtl_enrichment	0.0	1.0	1.0
+absolute_effect_eqtl_vs_non_eqtl_exploratory		0.846126608369818	1.0

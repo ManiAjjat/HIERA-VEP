@@ -1,0 +1,78 @@
+{
+  "selected_feature_family": "context_gated_sequence",
+  "selected_alpha": 1000.0,
+  "selection_frequency": {
+    "context_gated_sequence|1000": 2,
+    "sequence_plus_context|100": 1
+  },
+  "sequence_comparator_alpha": 100.0,
+  "locked_test_used_for_selection": false,
+  "outer_folds": 3,
+  "inner_folds": 2,
+  "bootstrap_position_clusters": 2000,
+  "context_features": [
+    "ccre_overlap",
+    "promoter_overlap",
+    "log1p_abs_tss_distance",
+    "phyloP100way",
+    "phastCons100way",
+    "phyloP_conserved",
+    "phyloP_accelerated",
+    "phastCons_high",
+    "ccre_class_PLS",
+    "ccre_class_pELS",
+    "ccre_class_dELS",
+    "ccre_class_CA-H3K4me3"
+  ],
+  "gating_features": [
+    "ccre_overlap",
+    "promoter_overlap",
+    "phyloP100way",
+    "phastCons100way"
+  ],
+  "locked_test_metrics": [
+    {
+      "model": "context_selected",
+      "feature_family": "context_gated_sequence",
+      "alpha": 1000.0,
+      "n": 4408,
+      "mae": 0.6067292094230652,
+      "rmse": 0.938428768405695,
+      "r2": 0.11620217561721802,
+      "pearson_r": 0.3515302836894989,
+      "spearman_rho": 0.2917834975018442,
+      "direction_accuracy": 0.602994555353902,
+      "observed_sd": 0.9983299970626831,
+      "predicted_sd": 0.27434179186820984
+    },
+    {
+      "model": "sequence_only",
+      "feature_family": "sequence_only",
+      "alpha": 100.0,
+      "n": 4408,
+      "mae": 0.6216636300086975,
+      "rmse": 0.949950011092599,
+      "r2": 0.09436798095703125,
+      "pearson_r": 0.31037864089012146,
+      "spearman_rho": 0.28539585099692644,
+      "direction_accuracy": 0.5936932849364791,
+      "observed_sd": 0.9983299970626831,
+      "predicted_sd": 0.3394053876399994
+    },
+    {
+      "model": "zero_baseline",
+      "feature_family": "none",
+      "alpha": null,
+      "n": 4408,
+      "mae": 0.6378845742427689,
+      "rmse": 0.9991780637448504,
+      "r2": -0.0019270431783882103,
+      "pearson_r": null,
+      "spearman_rho": null,
+      "direction_accuracy": 0.0,
+      "observed_sd": 0.9983299970626831,
+      "predicted_sd": 0.0
+    }
+  ],
+  "claim_rule": "Context improves prediction only if paired confidence intervals support improvement on the locked test."
+}

@@ -1,0 +1,9 @@
+-r requirements.txt
+biopython==1.88
+matplotlib==3.11.2
+seaborn==0.13.2
+requests==2.34.2
+pyarrow
+Pillow
+torch==2.5.1
+transformers==4.46.3

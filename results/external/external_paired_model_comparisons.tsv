@@ -1,0 +1,25 @@
+evaluation_group	model	baseline	measure	mean_difference	ci_lower_95	ci_upper_95	bootstrap_p_two_sided
+cross_species_transfer	shared_kmer_ridge	mutation_class_baseline	rmse_reduction	0.00869183126035611	-0.0031981689750903595	0.02111222502892226	0.165
+cross_species_transfer	shared_kmer_ridge	mutation_class_baseline	mae_reduction	-0.006731337236137291	-0.017920293407776112	0.004366178420112989	0.238
+cross_species_transfer	shared_kmer_ridge	mutation_class_baseline	pearson_gain	0.10350013880308045	0.05772848593637442	0.15147914367416596	0.0
+cross_species_transfer	shared_kmer_ridge	mutation_class_baseline	spearman_gain	0.13905804429464905	0.09263065721008759	0.185660151290998	0.0
+cross_species_transfer	shared_kmer_ridge	zero_baseline	rmse_reduction	0.007136722697185548	-0.004699566079306078	0.019580171203526824	0.27
+cross_species_transfer	shared_kmer_ridge	zero_baseline	mae_reduction	-0.007904801105876744	-0.019081676452613956	0.003444582215164094	0.167
+cross_species_transfer	shared_kmer_ridge	zero_baseline	pearson_gain				
+cross_species_transfer	shared_kmer_ridge	zero_baseline	spearman_gain				
+primary_human_external	shared_kmer_ridge	mutation_class_baseline	rmse_reduction	0.006836582367363161	-0.008664623147080686	0.022615586016089675	0.429
+primary_human_external	shared_kmer_ridge	mutation_class_baseline	mae_reduction	-0.00662133939135735	-0.019237640247580436	0.005543056020102114	0.308
+primary_human_external	shared_kmer_ridge	mutation_class_baseline	pearson_gain	0.07262691208272547	0.00550809421746628	0.13793057654037097	0.034
+primary_human_external	shared_kmer_ridge	mutation_class_baseline	spearman_gain	0.07846477227040216	0.02195067718981009	0.1361615227018465	0.005
+primary_human_external	shared_kmer_ridge	zero_baseline	rmse_reduction	0.0065344976202535085	-0.008953010879858591	0.02188222878887486	0.425
+primary_human_external	shared_kmer_ridge	zero_baseline	mae_reduction	-0.00632660538434566	-0.01891642516751016	0.005891699991631894	0.326
+primary_human_external	shared_kmer_ridge	zero_baseline	pearson_gain				
+primary_human_external	shared_kmer_ridge	zero_baseline	spearman_gain				
+secondary_splicing_transfer	shared_kmer_ridge	mutation_class_baseline	rmse_reduction	-0.011469245208407983	-0.04264931590353682	0.019577101812230092	0.481
+secondary_splicing_transfer	shared_kmer_ridge	mutation_class_baseline	mae_reduction	-0.04581778222252937	-0.0764574228756239	-0.01697987844030174	0.001
+secondary_splicing_transfer	shared_kmer_ridge	mutation_class_baseline	pearson_gain	-0.1373504744203037	-0.2880194440269662	0.009106449149384653	0.076
+secondary_splicing_transfer	shared_kmer_ridge	mutation_class_baseline	spearman_gain	-0.10887160057841455	-0.2663540870034899	0.04099133400649141	0.165
+secondary_splicing_transfer	shared_kmer_ridge	zero_baseline	rmse_reduction	-0.007606667363978558	-0.039117617208922054	0.02413924626889054	0.641
+secondary_splicing_transfer	shared_kmer_ridge	zero_baseline	mae_reduction	-0.044933576635061166	-0.0748110329592472	-0.016391796288778678	0.001
+secondary_splicing_transfer	shared_kmer_ridge	zero_baseline	pearson_gain				
+secondary_splicing_transfer	shared_kmer_ridge	zero_baseline	spearman_gain				
